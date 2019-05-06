@@ -349,7 +349,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 #else // TARGET_INTERFACE_BUILDER
-IB_DESIGNABLE
+//IB_DESIGNABLE
 @interface YYTextView : UIScrollView <UITextInput>
 @property (null_resettable, nonatomic, copy) IBInspectable NSString *text;
 @property (nullable, nonatomic, strong) IBInspectable UIColor *textColor;
